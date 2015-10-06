@@ -6,10 +6,10 @@ let g:NERDTreeWinPos = "right"
 let NERDTreeQuitOnOpen=1
 let NERDTreeShowHidden=1
 map <silent> <C-n> :NERDTreeToggle<CR>
-hi Directory guifg=#CCCCCC ctermfg=darkgrey
 
 syntax on
 colorscheme itg_flat
+hi Directory guifg=#CCCCCC ctermfg=darkgrey
 
 set number
 set showcmd
