@@ -8,6 +8,8 @@ let NERDTreeShowHidden=1
 map <silent> <C-n> :NERDTreeToggle<CR>
 
 let g:pdv_cfg_Author = "Guy Steels <guy@codedor.be>"
+let g:pdv_cfg_Since = strftime("%Y-%m-%d")
+let g:pdv_cfg_Version = strftime("%Y-%m-%d")
 nnoremap <C-K> :call PhpDocClass()<CR>
 nnoremap <C-K> :call PhpDocSingle()<CR>
 
