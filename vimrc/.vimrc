@@ -32,7 +32,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-set colorcolumn=120
+set colorcolumn=101
 
 " Jump to the last position when reopening a file
 if has("autocmd")
